@@ -11,7 +11,11 @@ const HoverInfo = () => {
       <h2 className={styles.header}>Hover squares</h2>
       <div className={styles.hoverInfo}>
         {[...hoveredSquares].reverse().map((square) => (
-          <HoveredSquare col={square.col} row={square.row} />
+          <HoveredSquare
+            key={`${square.cols}${square.row}`}
+            col={square.col}
+            row={square.row}
+          />
         ))}
       </div>
     </div>
