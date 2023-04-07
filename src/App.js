@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import GridBoard from './components/Grid/Grid';
+import HoverInfo from './components/HoverInfo/HoverInfo';
+import Options from './components/Options/Options';
 
-function App() {
+import styles from './index.module.css';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.app}>
+      <div>
+        <Options />
+        <GridBoard />
+      </div>
+      <HoverInfo />
     </div>
   );
-}
+};
 
 export default App;

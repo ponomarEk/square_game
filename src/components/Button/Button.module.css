@@ -1,0 +1,15 @@
+.button {
+  background-color: rgb(130, 117, 216);
+  border-radius: 15%;
+  width: 18%;
+  color: aliceblue;
+	height: 40px;
+}
+
+.button:hover {
+  background-color: rgb(212, 143, 189);
+}
+
+.button:disabled {
+  background-color: rgb(138, 137, 137);
+}

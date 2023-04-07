@@ -1,0 +1,12 @@
+.hoverWrapper {
+  width: 20%;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.hoverInfo {
+  height: 40vw;
+  overflow: auto;
+}

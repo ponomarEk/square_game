@@ -1,0 +1,10 @@
+.hoveredSquare {
+  border: 1px solid rgb(251, 238, 211);
+  background-color: rgb(251, 248, 227);
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  color: rgb(143, 116, 66);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
